@@ -2,31 +2,44 @@ import pylab as pl
 import random
 import math
 
-'''
-y1 = [0,1,2,3,4,5] 
-y2 = [6,7,8,9,10,11,12,13,14,15]
-
-x1 = range(len(y1))
-x2 = range(len(y2))
-'''
-'''
-list_x=[ 4.5, 3.3, 3.7, 4.1, 4.0, 3.9, 4.3, 4.6, 4.7, 4.8]
-list_y=[ 4.0, 4.1, 3.8, 4.2, 4.6, 4.8, 4.9, 3.9, 3.8, 4.1]
-'''
-
+print "Clustering"
 list_x=[]
 list_y=[]
+print "Centroids:"
+print "\n"
 
-cnet_x=[4.2,4.6,3.9]
-cnet_y=[4.1,4,4.5]
+cnet_x=[2.2,4.6,3.1]
+cnet_y=[4.1,3.4,4.5]
+
+print "X-Coordinates of the centroid are"
+for iter in cnet_x:
+    print iter
+
+print "\n"
+
+print "Y-Coordinates of the centroid are"
+for iter in cnet_y:
+    print iter
 
 
 
-for iter in range(1,31):
-    list_x.append(random.uniform(3,5))
-    list_y.append(random.uniform(3,5))
+
+print "Randomising other data points:"
+for iter in range(1,11):
+    list_x.append(random.uniform(0,5))
+    list_y.append(random.uniform(0,5))
+
+for iter1 in list_x:
+    print iter1
     
-for iter in range(0,30):
+print "\n"
+
+for iter2 in list_y:
+    print iter2
+    
+
+
+for iter in range(0,10):
     dist1 = math.hypot(list_x[iter] - cnet_x[0] , list_y[iter] - cnet_y[0])
     dist2 = math.hypot(list_x[iter] - cnet_x[1] , list_y[iter] - cnet_y[1])
     dist3 = math.hypot(list_x[iter] - cnet_x[2] , list_y[iter] - cnet_y[2])

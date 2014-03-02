@@ -37,7 +37,7 @@ def scrape_url(url1,url2,url3):
     for row1 in soup1.find_all('div',attrs={"class" : "reviewText"}):
         global iter1,strg1
         #strg1 = strg1 +unicode(iter1)+u"." + row1.text + u"\n\n"
-        strg1="".join([strg1,unicode(iter1),u".",row1.text,u"\n\n"])
+        strg1="".join([strg1,row1.text,u"\n\n"])
         iter1=iter1+1
     with open('output1.txt','w') as f1:
         f1.write(strg1.encode('utf8'))
@@ -52,7 +52,7 @@ def scrape_url(url1,url2,url3):
     for row2 in soup2.find_all('div',attrs={"class" : "reviewText"}):
         global iter2,strg2
         #strg2 = strg2 +unicode(iter2)+u"." + row2.text + u"\n\n"
-        strg2="".join([strg2,unicode(iter2),u".",row2.text,u"\n\n"])
+        strg2="".join([strg2,row2.text,u"\n\n"])
         iter2=iter2+1
     with open('output2.txt','w') as f2:
         f2.write(strg2.encode('utf8'))
@@ -68,7 +68,7 @@ def scrape_url(url1,url2,url3):
     for row3 in soup3.find_all('div',attrs={"class" : "reviewText"}):
         global iter3,strg3
         #strg3 = strg3 +unicode(iter3)+u"." + row3.text + u"\n\n"
-        strg3="".join([strg3,unicode(iter3),u".",row3.text,u"\n\n"])
+        strg3="".join([strg3,row3.text,u"\n\n"])
         iter3=iter3+1
     with open('output3.txt','w') as f3:
         f3.write(strg3.encode('utf8'))
