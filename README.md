@@ -34,12 +34,6 @@ Software(s) Required:
 1. RapidMiner 5
 
 
-Database(s) Required(Back End):
---------------------------------
-1.Microsoft Excel (for Spreadsheet)
-
-2.Notepad
-
 About the Dataset:
 ------------------
 The dataset contains two directories - 'pos' and 'neg' . Each folder contains 1000 reviews each. 
@@ -51,24 +45,24 @@ How To Run The Project:
 ----------------------------
 1. The Python files required to run the project are
 
-	a.IR_Component_module1.py
+	a.IR_Component_module1.py - Information Retrieval Component. Web scraper built using Beautiful Soup. Basic Front-End built using Tkinter.
 
-	b.mod2.py
+	b.mod2.py - Sentiment Analysis Component with predictive model built in RapidMiner. 
 
-	c.rating.py
+	c.rating.py - Sentiment Rating given for each product.
 
-	d.module3_int.py
+	d.module3_int.py - Aspect based Opinion Summarisation for each product.
 
-	e.plotmod3inp.py
+	e.plotmod3inp.py - Aspect based Opinion Visual Summarisation using matplotlib and NumPy.
 
-	f.mod4.py
+	f.mod4.py - Content based Recommender component using clustering based on Euclidian Distance.matplotlib used.
 
-	g.new_gui.py
+	g.new_gui.py - Final GUI built using Tkinter.
 
 
 2. The Java file required to run the project is:
 
-	a.Sample.java
+	a.Sample.java - Integrates the Rapidminer processes and python files.
 
 3. Three RapidMiner processes are used. The respective XML codes are stored in testfiles are
 
