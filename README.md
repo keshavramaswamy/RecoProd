@@ -1,4 +1,4 @@
-Instructions Manual for "Recommender System for Consumer Products"(RecoProd)
+"Recommender System for Consumer Products"(RecoProd)
 ============================================================================
 
 About the Project
