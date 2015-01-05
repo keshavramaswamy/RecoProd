@@ -40,7 +40,6 @@ The dataset contains two directories - 'pos' and 'neg' . Each folder contains 10
 
 The dataset must be used to train the classifier model.
 
-The dataset can be accessed at:http://revtraindataset.s3.amazonaws.com/list.html
 
 
 How To Run The Project:
