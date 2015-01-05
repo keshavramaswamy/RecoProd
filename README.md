@@ -15,7 +15,7 @@ The system uses the existing product reviews and sentiment classification of the
 is carried out. RecoProd consists of an Information Retrieval component which extracts the
 reviews from the e-commerce websites using the product names as queries. 
 
-Sentiment Analysis algorithms like Naive Bayes and SVM (Support Vector Machine) are used to
+Sentiment Analysis algorithms like __Naive Bayes__ and __SVM (Support Vector Machine)__ are used to
 categorize the reviews and opinion scores are assigned to the reviews. A comparative study
 on the accuracy of the sentiment analysis algorithms used is also carried out. Aspect based
 summary of opinions for each product is carried out and visually compared. The products are
@@ -45,15 +45,15 @@ How To Run The Project:
 ----------------------------
 1. The Python files required to run the project are
 
-	a.IR_Component_module1.py - Information Retrieval Component. Web scraper built using Beautiful Soup. Basic Front-End built using Tkinter.
+	a.IR_Component_module1.py - Information Retrieval Component. Web scraper built using __Beautiful Soup__. Basic Front-End built using __Tkinter__.
 
-	b.mod2.py - Sentiment Analysis Component with predictive model built in RapidMiner. 
+	b.mod2.py - Sentiment Analysis Component with predictive model built in __RapidMiner__. 
 
 	c.rating.py - Sentiment Rating given for each product.
 
 	d.module3_int.py - Aspect based Opinion Summarisation for each product.
 
-	e.plotmod3inp.py - Aspect based Opinion Visual Summarisation using matplotlib and NumPy.
+	e.plotmod3inp.py - Aspect based Opinion Visual Summarisation using __matplotlib__ and NumPy.
 
 	f.mod4.py - Content based Recommender component using clustering based on Euclidian Distance.matplotlib used.
 
