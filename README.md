@@ -72,10 +72,10 @@ How To Run The Project:
 
 4. The Excelfiles and folders stored in the "Files" MUST not be deleted.
 
-5. The RapidMiner processes ust be created using the XML codes and suitable editing must be made to execute them.
+5. The RapidMiner processes must be created using the XML codes and suitable editing must be made to execute them.
 
 6. The paths of the files created in Python must be suitably edited.
 
 7. The project can be run by executing the Java file:Sample.java
 
-WARINING:A fast working internet connection is required. The folders and spreadsheets created before must not be deleted. 
+WARNING:A fast working internet connection is required. The folders and spreadsheets created before must not be deleted. 
