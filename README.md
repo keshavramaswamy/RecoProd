@@ -40,6 +40,8 @@ The dataset contains two directories - 'pos' and 'neg' . Each folder contains 10
 
 The dataset must be used to train the classifier model.
 
+The dataset can be accessed at:http://revtraindataset.s3.amazonaws.com/list.html
+
 
 How To Run The Project:
 ----------------------------
@@ -53,7 +55,7 @@ How To Run The Project:
 
 	d.module3_int.py - Aspect based Opinion Summarisation for each product.
 
-	e.plotmod3inp.py - Aspect based Opinion Visual Summarisation using __matplotlib__ and NumPy.
+	e.plotmod3inp.py - Aspect based Opinion Visual Summarisation using __matplotlib__ and __NumPy__.
 
 	f.mod4.py - Content based Recommender component using clustering based on Euclidian Distance.matplotlib used.
 
