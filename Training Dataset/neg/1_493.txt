@@ -1,0 +1,1 @@
+First off, it has no zipper, second, it doesn't turn off the device automatically, so it just stays on in there until it times out.

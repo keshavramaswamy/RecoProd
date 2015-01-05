@@ -1,0 +1,1 @@
+Charger connection to bluetooth is poor. It does not connect well and sometimes looses connection which causes poor charge performance.

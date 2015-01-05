@@ -1,0 +1,1 @@
+This is falsely advertised as working for the Sidekick 3, but it doesn't work. Why? The Sidekick series has never charged over the USB, as it's always been USB 1.1. Sorry to anyone who was looking for a good deal, keep moving because this isn't one.

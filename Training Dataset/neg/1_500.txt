@@ -1,0 +1,1 @@
+This seems not to work. It says the LED should light, but it doesn't. My cell phone was not completely out of charge when I started, so I couldn't tell. I tried emailing the manufacturer at the address on the directions, but the email bounced.

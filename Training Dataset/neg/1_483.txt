@@ -1,0 +1,1 @@
+Push buttons on the rim are exposed and active even when the cover is closed. They cannot be disabled. These buttons control ring profiles so that the phone will change to silent without warning.
