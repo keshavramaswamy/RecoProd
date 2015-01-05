@@ -52,11 +52,17 @@ How To Run The Project:
 1. The Python files required to run the project are
 
 	a.IR_Component_module1.py
+
 	b.mod2.py
+
 	c.rating.py
+
 	d.module3_int.py
+
 	e.plotmod3inp.py
+
 	f.mod4.py
+
 	g.new_gui.py
 
 
